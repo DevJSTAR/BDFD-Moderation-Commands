@@ -1,8 +1,8 @@
-
-===========================
-
 //Mute User Command
 //Prefix: (your_prefix)mute
+//Variable:
+//Name: muterole
+//Value: empty literally nothing
 //Language: BDScript
 ---------------------------
 $nomention
@@ -33,6 +33,9 @@ $suppressErrors[<a:alert2:856884941894582302>  **|  Couldn't find the user. Usag
 
 //UnMutes User Command
 //Prefix: (your_prefix)unmute
+//Variable:
+//Name: muterole
+//Value: empty literally nothing
 //Language: BDScript
 ---------------------------
 $nomention
@@ -61,6 +64,9 @@ $suppressErrors[<a:alert2:856884941894582302>  **|  Couldn't find the user. Usag
 
 //DMs Muted User Command
 //Prefix: (your_prefix)mute
+//Variable:
+//Name: muterole
+//Value: empty literally nothing
 //Language: BDScript
 ---------------------------
 $nomention
