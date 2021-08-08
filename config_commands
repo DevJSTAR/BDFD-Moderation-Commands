@@ -1,0 +1,59 @@
+//Set MuteRole Command
+//Prefix: (your_prefix)set muterole
+//Language: BDScript
+---------------------------
+$nomention
+$onlyBotPerms[manageroles;admin;**<a:alert2:856884941894582302>  I must have the `Manage Roles` or `Administrator` permission to do this!**]
+$argsCheck[>1;<a:alert2:856884941894582302>  **|  Please mention a role! Usage: `>set muterole <@&role>`**]
+$onlyPerms[manageroles;admin;**<a:alert2:856884941894582302>  |  You must have the `Manage Roles` or `Administrator` permission to run this command!**]
+$authorIcon[$authorAvatar]
+$author[Mute Role Changed]
+$thumbnail[https://discordapp.com/emojis/865527335900676096]
+$description[
+**$username#$discriminator[$authorID]** set the mute role to <@&$mentionedRoles[1]>.
+]
+$color[00FFFF]
+$addTimestamp
+$footer[Discord Bots Dévelopment Ⓒ︎ 2021]
+$setServerVar[muterole;$mentionedRoles[1]]
+$suppressErrors[<a:alert2:856884941894582302>  **|  Couldn't find the role. Usage `>set muterole <@&role>`**]
+
+===========================
+
+//Ping Command
+//Prefix: (your_prefix)ping
+//Language: BDScript
+---------------------------
+$nomention
+$thumbnail[https://cdn.discordapp.com/emojis/864735063417946112]
+$authorIcon[$userAvatar[$botID]]
+$author[Pong]
+$description[:ping_pong: **Ping:**
+`$ping MS`
+]
+$color[00FFFF]
+$footer[Discord Bots Dévelopment Ⓒ︎ 2021]
+
+===========================
+
+//Set Nickname Command
+//Prefix: (your_prefix)setnick
+//Language: BDScript
+---------------------------
+$nomention
+$onlyPerms[managenicknames;admin;**<a:alert2:856884941894582302>  |  You need to have `Manage Nicknames` or `Administrator` Permission to run this command!**]
+$onlyIf[$mentioned[1]!=;**<a:alert2:856884941894582302>  |  Please mention a user!**]
+$onlyBotPerms[managenicknames;admin;**<a:alert2:856884941894582302>  |  I must have the `Manage Nicknames` or `Administrator` permission to run this command!**]
+$author[Nickname Changed!]
+$description[
+Successfully set the **$username[$mentioned[1]]'s** nickname as: **$noMentionMessage**
+**__Before:__**
+$nickname[$mentioned[1]]
+**__After:__**
+$noMentionMessage
+]
+$color[00FFFF]
+$footer[Discord Bots Dévelopment Ⓒ︎ 2021]
+$addTimestamp
+$changeUsernameWithID[$mentioned[1];$noMentionMessage]
+$embedSuppressErrors[**Uhhhh**; <a:alert2:856884941894582302> **Something Went Wrong! Couldn't find the user or there was a problem with the API or move my role to the top **; 00FFFF; ; Discord Bots Dévelopment Ⓒ︎ 2021; ]
