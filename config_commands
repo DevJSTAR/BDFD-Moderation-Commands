@@ -1,5 +1,8 @@
 //Set MuteRole Command
 //Prefix: (your_prefix)set muterole
+//Variable:
+//Name: muterole
+//Value: empty literally nothing
 //Language: BDScript
 ---------------------------
 $nomention
