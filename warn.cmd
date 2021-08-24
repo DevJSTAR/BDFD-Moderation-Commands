@@ -24,7 +24,7 @@ $footer[Discord Bots Dévelopment Ⓒ︎ 2021]
 $suppressErrors[<a:alert2:856884941894582302>  **|  Couldn't find the user. Usage `>warn <@user> <reason>`**]
 $setUserVar[warn;$sum[$getUserVar[warn;$mentioned[<]];1];$mentioned[<]]
 
-===========================
+====================
 
 //DMs Warned User Command
 //Prefix: (your_prefix)warn
