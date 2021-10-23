@@ -52,7 +52,7 @@ $suppressErrors[]
 
 ====================
 
-//Warn User Command
+//Check Warns Command
 //Prefix: (your_prefix)checkwarns
 //Language: BDScript
 ---------------------------
@@ -73,7 +73,7 @@ $suppressErrors[<a:alert2:856884941894582302>  **|  Couldn't find the user. Usag
 
 ===========================
 
-//Warn User Command
+//Clear Warns User Command
 //Prefix: (your_prefix)clearwarns
 //Language: BDScript
 ---------------------------
