@@ -1,5 +1,5 @@
 # BDFD-Moderation-Commands
-BDFD is a program where you can code Discord Bots easily. I made this repository to give you guys my most advanced moderation commands.
+BDFD is a program where you can code Discord Bots easily. I made this repository to give you guys my most advanced moderation commands
 
 ## ALERT! <img src="https://cdn.discordapp.com/emojis/856884941894582302.gif" width="30px">
 **<p align="left">There are the codes in the same file based on thier categories!</p>**
