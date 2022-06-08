@@ -24,7 +24,7 @@ This is the **`Source Code`** of **[BDFD](https://botdesignerlist.com)** program
 =========================
 
 Join our servers, **[JSTAR's Wikis](https://dsc.gg/wikis)** & **[Discord Bots Dévelopment](https://dsc.gg/official_dbd)**
-If you want help join our **[Support Server](https://dsc.gg/wikis)** where we help with our codes, other codes, provide cool features such as, add your bot & test them, get some codes from other channels, ask for codes, get notified when we update/post a new repo, participate in **BOTW**/**Bot Of The Week** contest every week, get support of any coding languages: **`JavaScript`**, **`Python`**, **`Aoi.JS`**, and **`BDFD`**, and more! Join Now, Make sure to star our repo!
+If you want help join our **[Support Server](https://dsc.gg/wikis)** where we help with our codes, other codes, provide cool features such as, add your bot & test them, get some codes from other channels, ask for codes, get notified when we update/post a new repo, participate in **BOTW**/**Bot Of The Week** contest every week, get support of any coding languages: **`JavaScript`**, **`Python`**, **`Aoi.JS`**, and **`BDFD`**, and more! Join Now, Make sure to star our repo
 ![JSTAR's Wikis](https://media.discordapp.net/attachments/875792523363246130/880124595649277992/JSTARs_Wikis.gif)
 
 <p align="center">Discord Bots Dévelopment Ⓒ︎ 2021</p>
